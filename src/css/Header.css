@@ -1,0 +1,59 @@
+.navbar{
+  font-family: 'Inter', sans-serif;
+}
+.logo-img {
+  width: 10%;
+  height: auto;
+}
+.fs-menu {
+  font-size: x-large;
+  padding-top: 1rem;
+}
+.mx-menu {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.d-content {
+  display: contents;
+}
+.p-relative {
+  position: relative;
+  z-index: 0;
+}
+
+/*tablet*/
+@media (max-width: 768px) {
+  .logo-img {
+    width: 15%;
+    height: auto;
+  }
+  .fs-menu {
+    font-size: small;
+    padding-top: 0.5rem;
+  }
+  .mx-menu {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}
+/*mobile*/
+@media (max-width: 426px) {
+  .logo-img {
+    width: 20%;
+    height: auto;
+  }
+  .fs-menu {
+    font-size: xx-small;
+  }
+  .mx-menu {
+    margin-bottom: -0.5rem;
+  }
+  .navbar-toggler {
+    font-size: 1rem;
+  }
+  .navbar-toggler-icon{
+    width: 0.8em;
+    height: 0.8em;
+  }
+}

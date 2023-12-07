@@ -1,0 +1,215 @@
+.p-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+.container-contact-topic {
+  position: relative;
+  font-family: "Inter", sans-serif;
+}
+.container-contact-inside-topic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.font-welcome {
+  font-size: 4rem;
+  font-weight: bold;
+  inline-size: max-content;
+}
+.container-contact-content1 {
+  font-family: "Inter", sans-serif;
+}
+.contact-topic {
+  font-size: x-large;
+  text-align: center;
+  margin-top: 4rem;
+}
+.minusmargin {
+  margin-top: -10px;
+}
+.contact-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin: 2rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.contact-form-box-1 {
+  background-color: #001e63;
+  width: 40%;
+  margin: 1rem;
+  padding: 2rem;
+  padding-left: 5rem;
+  padding-bottom: 6rem;
+  color: white;
+  border-radius: 10px;
+}
+.contact-form-box-2 {
+  width: 45%;
+  margin: 5rem;
+}
+.contact-form-topic {
+  font-size: xxx-large;
+  margin-top: 2rem;
+}
+.contact-from-subtopic {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-size: larger;
+}
+.contact-form-d-block {
+  display: block;
+}
+.contact-form-d-flex {
+  display: flex;
+}
+.form-group-contact {
+  width: 50%;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  font-size: x-large;
+}
+.btn-info {
+  border-radius: 5px;
+  background-color: #40a3ff;
+  color: white;
+  font-size: larger;
+  width: 120px;
+  height: 50px;
+  margin-right: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+/*tablet*/
+@media (max-width: 768px) {
+  .font-welcome {
+    font-size: 2rem;
+  }
+  .contact-topic {
+    font-size: large;
+    margin-top: 3rem;
+  }
+  .contact-form {
+    margin: 0.8rem;
+  }
+  .contact-form-box-1 {
+    width: 45%;
+    padding: 0rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+  }
+  .contact-form-topic {
+    font-size: xx-large;
+  }
+  .contact-form-box-2 {
+    width: 40%;
+    margin: 2rem;
+  }
+  .contact-from-subtopic {
+    margin-bottom: 3rem;
+    font-size: smaller;
+  }
+  .text-contact-footer {
+    margin-bottom: 0.5rem;
+  }
+  .form-group-contact {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-size: medium;
+  }
+  .btn-info {
+    font-size: medium;
+    width: 100px;
+    height: 40px;
+  }
+}
+
+/*mobile L*/
+@media (max-width: 426px) {
+  .font-welcome {
+    font-size: 1rem;
+  }
+  .contact-topic {
+    font-size: x-small;
+    margin-top: 2rem;
+  }
+  .contact-form {
+    display: block;
+    margin: 0.5rem;
+  }
+  .contact-form-box-1 {
+    width: 90%;
+    padding: none;
+  }
+  .contact-form-topic {
+    padding-top: 2rem;
+  }
+  .contact-from-subtopic {
+    margin-bottom: 1rem;
+  }
+  .contact-form-box-2 {
+    width: 85%;
+  }
+  .btn-info {
+    margin-bottom: 2rem;
+  }
+}
+
+/*mobile S*/
+@media (max-width: 321px) {
+  .contact-form-topic {
+    font-size: larger;
+  }
+  .contact-from-subtopic {
+    font-size: x-small;
+  }
+  .box-contact-footer {
+    padding: 0rem;
+  }
+  .topic-contact-footer {
+    font-size: medium;
+    margin-top: 2rem;
+  }
+  .text-contact-footer {
+    font-size: xx-small;
+    margin-bottom: 0.25rem;
+  }
+  .img-contact-footer {
+    width: 25px;
+    height: 22px;
+    border-radius: 2px;
+  }
+  .form-group-contact {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: small;
+  }
+  .btn-info {
+    font-size: small;
+    width: 80px;
+    height: 34px;
+  }
+  .contact-form-box-2 {
+    margin: 1.5rem;
+  }
+  .contact-topic {
+    font-size: xx-small;
+    margin-top: 1.5rem;
+  }
+}

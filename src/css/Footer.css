@@ -1,0 +1,134 @@
+.container-footer {
+  background-color: #0035ad;
+  height: 400px;
+  display: flex;
+  font-family: "Nunito", sans-serif;
+}
+.box-footer1 {
+  width: 500px;
+  height: 400px;
+  background-color: #e89f18;
+  margin-left: 3rem;
+  text-align: center;
+  color: white;
+}
+.topic-footer {
+  font-weight: bold;
+  font-size: xxx-large;
+  margin-top: 2rem;
+}
+.f-footer {
+  margin: 2rem;
+}
+.btn-outline-warning {
+  width: 400px;
+  margin: 2rem;
+  border: 2px solid white;
+  border-radius: 0px;
+  color: white;
+  font-size: x-large;
+}
+.box-footer2 {
+  margin: auto;
+}
+.topic-footer2 {
+  font-weight: normal;
+  font-size: xx-large;
+  margin-bottom: 2rem;
+  color: white;
+}
+.text-footer2 {
+  font-size: large;
+  color: white;
+}
+.icon-footer {
+  display: flex;
+  margin-top: 2rem;
+}
+.icon-box {
+  width: auto;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.img-footer {
+  width: 45px;
+  height: 42px;
+  border-radius: 5px;
+}
+
+/*tablet*/
+@media (max-width: 768px) {
+  .container-footer {
+    height: 350px;
+  }
+  .box-footer1 {
+    width: 300px;
+    height: 350px;
+    margin-left: 1rem;
+  }
+  .topic-footer {
+    font-size: xx-large;
+  }
+  .f-footer {
+    margin: 1.5rem;
+  }
+  .btn-outline-warning {
+    width: 200px;
+    margin: 1rem;
+    margin-top: 2rem;
+    font-size: medium;
+  }
+  .topic-footer2 {
+    font-size: x-large;
+    margin-bottom: 1rem;
+  }
+  .text-footer2 {
+    font-size: small;
+  }
+  .img-footer {
+    width: 35px;
+    height: 32px;
+    border-radius: 4px;
+  }
+  .icon-box {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+}
+
+/*mobile L*/
+@media (max-width: 426px) {
+  .container-footer {
+    display: block;
+    height: auto;
+  }
+  .box-footer1 {
+    width: 100%;
+    height: fit-content;
+    margin-left: 0rem;
+  }
+  .btn-outline-warning {
+    margin-top: 4rem;
+  }
+  .topic-footer {
+    padding-top: 1rem;
+  }
+  .box-footer2 {
+    padding: 2rem;
+  }
+  .img-footer {
+    width: 30px;
+    height: 28px;
+    border-radius: 3px;
+  }
+  .text-footer2{
+    margin-bottom: 0.5rem;
+  }
+}
+
+/*mobile M*/
+@media (max-width: 376px) {
+}
