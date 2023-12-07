@@ -1,24 +1,8 @@
 import React from "react";
 import LogoWhite from "../images/Logo-white.png";
 import "../css/Header.css";
-import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  const navigate = useNavigate();
-
-
-  const handleBtnToHome = () => {
-    navigate('/home')
-  }
-  const handleBtnToAbout = () => {
-    navigate('/about')
-  }
-  const handleBtnToSourceCode = () => {
-    navigate('/sourcecode')
-  }
-  const handleBtnToContact = () => {
-    navigate('/contact')
-  }
 
   return (
     <nav className="navbar navbar-expand-sm navbar-dark p-relative bg-transparent">
@@ -44,24 +28,24 @@ const Header = () => {
         >
           <ul className="navbar-nav fs-menu">
             <li className="nav-item mx-menu">
-              <button onClick={handleBtnToHome} className="nav-link text-white">
+              <a href="/home" className="nav-link text-white">
                 Home
-              </button>
+              </a>
             </li>
             <li className="nav-item mx-menu">
-              <button onClick={handleBtnToAbout} className="nav-link text-white">
+              <a href="/about" className="nav-link text-white">
                 About
-              </button>
+              </a>
             </li>
             <li className="nav-item mx-menu">
-              <button onClick={handleBtnToSourceCode} className="nav-link text-white">
+              <a href="/sourcecode" className="nav-link text-white">
                 SourceCode
-              </button>
+              </a>
             </li>
             <li className="nav-item mx-menu">
-              <button onClick={handleBtnToContact} className="nav-link text-white">
+              <a href="/contact" className="nav-link text-white">
                 Contact
-              </button>
+              </a>
             </li>
           </ul>
         </div>
